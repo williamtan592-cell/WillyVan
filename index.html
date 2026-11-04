@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name – Financial Analyst</title>
+  <meta name="description" content="Portfolio of Your Name, financial analyst specialising in equity research and financial modelling.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">Your Name</a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a class="btn btn-small" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I turn messy numbers into decisions you can act on.</h1>
+      <p>Financial analyst with five years in equity research and FP&amp;A. I build models, write clear recommendations, and flag risks early.</p>
+      <div class="actions">
+        <a class="btn" href="#work">See my work</a>
+        <a class="btn btn-outline" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <!-- Decorative candlestick chart. Edit --h (body height), --t (offset from top), --w (wick length) to reshape it. -->
+    <div class="chart" role="img" aria-label="Decorative candlestick chart trending upward">
+      <span class="candle down" style="--t:30%;--h:22%;--w:48%"></span>
+      <span class="candle up"   style="--t:40%;--h:18%;--w:40%"></span>
+      <span class="candle down" style="--t:46%;--h:20%;--w:44%"></span>
+      <span class="candle up"   style="--t:38%;--h:26%;--w:46%"></span>
+      <span class="candle up"   style="--t:30%;--h:24%;--w:42%"></span>
+      <span class="candle down" style="--t:32%;--h:16%;--w:38%"></span>
+      <span class="candle up"   style="--t:22%;--h:28%;--w:46%"></span>
+      <span class="candle up"   style="--t:14%;--h:26%;--w:42%"></span>
+      <span class="candle down" style="--t:16%;--h:14%;--w:34%"></span>
+      <span class="candle up"   style="--t:8%;--h:24%;--w:38%"></span>
+    </div>
+  </section>
+
+  <section class="ticker" aria-label="Highlights">
+    <div class="ticker-track">
+      <span>Covered 40+ companies</span>
+      <span>Built 25 valuation models</span>
+      <span>CFA Level II</span>
+      <span>Forecast accuracy within 3%</span>
+      <span>Covered 40+ companies</span>
+      <span>Built 25 valuation models</span>
+      <span>CFA Level II</span>
+      <span>Forecast accuracy within 3%</span>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <h2>Selected work</h2>
+    <p class="lead">A ledger of recent projects. Replace these rows with your own.</p>
+    <div class="table-wrap">
+      <table class="ledger">
+        <thead>
+          <tr><th>Project</th><th>My role</th><th>Year</th><th class="num">Outcome</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="#">Retail chain DCF valuation</a></td><td>Lead analyst</td><td>2026</td><td class="num gain">+18% vs. consensus</td></tr>
+          <tr><td><a href="#">Cost-cutting model for a logistics firm</a></td><td>Modeller</td><td>2025</td><td class="num gain">$2.4M saved</td></tr>
+          <tr><td><a href="#">Portfolio risk dashboard</a></td><td>Analyst and designer</td><td>2025</td><td class="num gain">Weekly reporting cut by 6 hrs</td></tr>
+          <tr><td><a href="#">Failed acquisition post-mortem</a></td><td>Researcher</td><td>2024</td><td class="num loss">−$1.1M lesson</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="experience" class="section tint">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">2023 – now</p>
+        <div><h3>Senior Analyst, Company Name</h3>
+        <p>Lead coverage of consumer and retail stocks. Present quarterly outlooks to the investment committee.</p></div>
+      </li>
+      <li>
+        <p class="when">2021 – 2023</p>
+        <div><h3>FP&amp;A Analyst, Company Name</h3>
+        <p>Owned the monthly forecast and variance reporting for a $200M business unit.</p></div>
+      </li>
+      <li>
+        <p class="when">2019 – 2021</p>
+        <div><h3>Junior Analyst, Company Name</h3>
+        <p>Supported senior analysts with comps, data cleaning, and pitch materials.</p></div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Financial modelling</li>
+      <li>DCF and comps</li>
+      <li>Excel and VBA</li>
+      <li>SQL</li>
+      <li>Python (pandas)</li>
+      <li>Power BI</li>
+      <li>Bloomberg Terminal</li>
+      <li>Risk analysis</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s talk numbers.</h2>
+    <p>Open to full-time roles and consulting projects.</p>
+    <a class="btn btn-red" href="mailto:you@example.com">you@example.com</a>
+    <p class="links"><a href="https://linkedin.com/in/yourname">LinkedIn</a> <a href="https://github.com/yourname">GitHub</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
